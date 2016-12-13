@@ -2,7 +2,7 @@
 
 Haskell implementation of [point-in-polygon (PIP)](https://en.wikipedia.org/wiki/Point_in_polygon) problem.
 
-Based on algorithm [Winding Number Inclusion](http://geomalgorithms.com/a03-_inclusion.html):
+Based on [Winding Number Inclusion](http://geomalgorithms.com/a03-_inclusion.html) algorithm:
 
 ```c
 // wn_PnPoly(): winding number test for a point in a polygon
