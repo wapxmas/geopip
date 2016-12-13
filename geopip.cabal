@@ -1,0 +1,25 @@
+name:                geopip
+version:             0.1.0.0
+synopsis:            Check if a point is inside or outside the polygon
+description:         Please see README.md
+homepage:            https://github.com/wapxmas/geopip#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Sergey N. Yashin
+maintainer:          yashin.sergey@gmail.com
+copyright:           2016 Sergey N. Yashin
+category:            Data
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Geo
+  build-depends:       base >= 4.7 && < 5
+                     , gps >= 1.2 && < 1.5
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/wapxmas/geopip
